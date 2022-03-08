@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Useful meta tags -->
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="продажа товаров" />
+    <meta name="google" content="notranslate" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="top">
+          <div class="container">
+            <p>Free Shipping over $75!</p>
+          </div>
+        </div>
+        <div class="bottom" id="header">
+          <div class="container">
+            <div class="inner">
+              <div class="left">
+                  <a href="#" class="nav-link active">New in</a>
+                  <a href="#" class="nav-link">Apparel</a>
+                  <a href="#" class="nav-link">Plus size</a>
+                  <a href="#" class="nav-link">Accessories</a>  
+                  <a href="#" class="nav-link">Restocked</a>  
+              </div>
+              <img src="../assets/img/logo.png" alt="" class="center">
+              <div class="right">
+                <button class="btn search_btn" id="search">
+                  <input type="text" placeholder="search">
+                  <span>search</span>
+                  <img src="../assets/img/icon_search.svg" alt="">
+                </button>
+                <button class="btn">sign in</button>
+                <button class="btn cart_btn">Cart <span id="cartBtnProductQuantity">0</span></button>
+              </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="catalog_items">
+      <div class="container">
+        <a href="#" class="item">Coats & Jackets</a>
+        <a href="#" class="item">Sweatshirts & T-shirts</a>
+        <a href="#" class="item">Shirts & Tops</a>
+        <a href="#" class="item active">Dresses</a>
+        <a href="#" class="item">Bottoms</a>
+        <a href="#" class="item">Outerwear</a>
+        <a href="#" class="item">Jumpsuits & Rompers</a>
+        <a href="#" class="item">Activewear</a>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="top">
+          <div class="breadCrumbs">
+            <a href="/">Home</a> -
+            <span>Apparel</span> -
+            <span style="color: #000">Dresses</span>
+          </div>
+          <h2 class="section_title">Dresses<sub>420</sub></h2>
+          <div></div>
+        </div>
+        <div class="catalog_filter">
+          <div class="left">
+            <button class="catalog_btn"><span>Color +</span>
+              <div class="catalog_drop">
+                <div class="items">
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color"></div>
+                      <span>Grays</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: black;"></div>
+                      <span>Blacks</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: blue;"></div>
+                      <span>Blues</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: brown;"></div>
+                      <span>Browns</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: green;"></div>
+                      <span>Greens</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: gray;"></div>
+                      <span>Grey</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color"></div>
+                      <span>Khaki</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: mistyrose;"></div>
+                      <span>Metallics</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: mediumslateblue;"></div>
+                      <span>Multi</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: mediumseagreen;"></div>
+                      <span>Mustard</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: orange;"></div>
+                      <span>Oranges</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color"></div>
+                      <span>Pinks</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: purple;"></div>
+                      <span>Purples</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: yellow;"></div>
+                      <span>Yellows</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: red;"></div>
+                      <span>reds</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: white;"></div>
+                      <span>White</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="btn clear">clear</div>
+                  <div class="btn">apply</div>
+                </div>
+              </div>
+            </button>
+            <button  class="catalog_btn">Size +
+              <div class="catalog_drop">
+                <div class="items">
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>1</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>3</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>5</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>7</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>9</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>11</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>13</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>XS</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>S</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>M</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>L</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>XL</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>2XL</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>3XL</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>One size</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="btn clear">clear</div>
+                  <div class="btn">apply</div>
+                </div>
+              </div>
+            </button>
+            <button class="catalog_btn">Browse by +
+              <div class="catalog_drop">
+                <div class="items">
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>all</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Accessories</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Activewear</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Apparel</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Bottoms</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Coats & Jackets</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Jewelry</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Jumpsuits & Rompers</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>lingerie</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Outerwear</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Shirts & Tops</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Sweatshirts & T-shirts</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>CCProducts</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Made in USA</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Masks</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>New arrivals</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Plus size</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Restocked</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Sets</span>
+                    </div>
+                    <div class="color_palitr">
+                      <div class="color" style="background-color: transparent;"></div>
+                      <span>Sleepwear</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="btn clear">clear</div>
+                  <div class="btn">apply</div>
+                </div>
+              </div>
+            </button>
+          </div>
+          <div class="right">
+            <button class="catalog_btn">Sort by +
+              <div class="catalog_drop" style="left: auto; right: 0; width: 172px;">
+                <div class="items" style="grid-template-columns: 1fr; margin-bottom: 0 !important;">
+                  <div class="item">
+                    <div class="color_palitr">
+                      <span>featured</span>
+                    </div>
+                    <div class="color_palitr">
+                      <span>Bestsellers</span>
+                    </div>
+                    <div class="color_palitr">
+                      <span>highest price</span>
+                    </div>
+                    <div class="color_palitr">
+                      <span>lowest price</span>
+                    </div>
+                    <div class="color_palitr">
+                      <span>oldest</span>
+                    </div>
+                    <div class="color_palitr">
+                      <span>Newest</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="items">
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/10.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/02.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/19.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/09.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/11.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/12.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/13.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/14.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/15.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/16.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/17.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+          <a href="product-detail.html" class="item">
+            <div class="img">
+              <img src="../assets/img/arrivals/18.jpg" alt="">
+              <div class="img_hover_block">Bestsellers</div>
+            </div>
+            <div class="title">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+            <div class="price">$44</div>
+            <div class="color"></div>
+          </a>
+        </div>
+        <div class="bottom_loadMore">
+          <button class="btn">LOAD MORE</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="items">
+          <div class="item">
+            <div class="col">
+              <div class="top">
+                <a href="#" class="link">customersupport@ovroe.com</a>
+                <a href="#" class="link">702-462-7281</a>
+                <p>9550 S Eastern Ave ste 253-A102 Las Vegas NV 89123</p>
+              </div>
+              <p>Copyright © 2021, OVROE - Online Fashion</p>
+            </div>
+            <div class="col">
+              <div class="top">
+                <a href="#" class="link">About Us</a>
+                <a href="#" class="link">Contact Us</a>
+                <a href="#" class="link">Shipping Info</a>
+                <a href="#" class="link">Returns Info</a>
+              </div>
+              <a href="#" class="link">Instagram</a>
+            </div>
+            <div class="col">
+              <div class="top">
+                <a href="#" class="link">Terms of Service</a>
+                <a href="#" class="link">Refund policy</a>
+                <a href="#" class="link">Privacy policy</a>
+                <a href="#" class="link">Cookies</a>
+              </div>
+              <a href="#" class="link">Instagram</a>
+            </div>
+          </div>
+          <div class="item">
+            <form action="/">
+              <div class="title">Subscribe to our newsletter</div>
+              <div class="footer_input">
+                <input type="email" placeholder="Email">
+                <button>Ok</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <section class="cart_sidebar" id="cartSideBarBody">
+      <div class="container">
+        <div>
+          <div class="top">
+            <div class="title">Your cart ( <span id="cartProductQuantity">0</span> )</div>
+            <button class="hide cart_btn">&#10006;</button>
+          </div>
+          <div class="center" id="cart">
+            <div class="item cart__product">
+              <div class="preview">
+                <img src="../assets/img/arrivals/01.jpg" alt="">
+              </div>
+              <div class="content">
+                <div>
+                  <div class="title">
+                    <div class="name">Short Sleeve Round Neck Petal Split Back Detail Crop Tee</div>
+                    <div class="price subnav-product__price">$<span>16</span></div>
+                  </div>
+                  <div class="features">
+                    <div class="features_item">
+                      <div class="description">COLOR:</div>
+                      <select name="cars" id="cars">
+                        <option value="charcoal">Charcoal</option>
+                        <option value="pink">Pink</option>
+                        <option value="black">Black</option>
+                        <option value="green">Green</option>
+                      </select>
+                    </div>
+                    <div class="features_item">
+                      <div class="description">SIZE:</div>
+                      <select name="cars" id="cars">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="amount">
+                    <button class="cart-product__arrow--minus">-</button>
+                    <div class="num subnav-product__quantity--num">1</div>
+                    <button class="cart-product__arrow--plus">+</button>
+                  </div>
+                  <button class="remove cart-product__delete">remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="item cart__product">
+              <div class="preview">
+                <img src="../assets/img/arrivals/03.jpg" alt="">
+              </div>
+              <div class="content">
+                <div>
+                  <div class="title">
+                    <div class="name">Short Sleeve Round Neck Petal Split Back Detail Crop Tee</div>
+                    <div class="price subnav-product__price">$<span>16</span></div>
+                  </div>
+                  <div class="features">
+                    <div class="features_item">
+                      <div class="description">COLOR:</div>
+                      <select name="cars" id="cars">
+                        <option value="charcoal">Charcoal</option>
+                        <option value="pink">Pink</option>
+                        <option value="black">Black</option>
+                        <option value="green">Green</option>
+                      </select>
+                    </div>
+                    <div class="features_item">
+                      <div class="description">SIZE:</div>
+                      <select name="cars" id="cars">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="amount">
+                    <button class="cart-product__arrow--minus">-</button>
+                    <div class="num subnav-product__quantity--num">1</div>
+                    <button class="cart-product__arrow--plus">+</button>
+                  </div>
+                  <button class="remove cart-product__delete">remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="item cart__product">
+              <div class="preview">
+                <img src="../assets/img/arrivals/02.jpg" alt="">
+              </div>
+              <div class="content">
+                <div>
+                  <div class="title">
+                    <div class="name">Short Sleeve Round Neck Petal Split Back Detail Crop Tee</div>
+                    <div class="price subnav-product__price">$<span>16</span></div>
+                  </div>
+                  <div class="features">
+                    <div class="features_item">
+                      <div class="description">COLOR:</div>
+                      <select name="cars" id="cars">
+                        <option value="charcoal">Charcoal</option>
+                        <option value="pink">Pink</option>
+                        <option value="black">Black</option>
+                        <option value="green">Green</option>
+                      </select>
+                    </div>
+                    <div class="features_item">
+                      <div class="description">SIZE:</div>
+                      <select name="cars" id="cars">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+                  <div class="amount">
+                    <button class="cart-product__arrow--minus">-</button>
+                    <div class="num subnav-product__quantity--num">1</div>
+                    <button class="cart-product__arrow--plus">+</button>
+                  </div>
+                  <button class="remove cart-product__delete">remove</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="title">
+            <div class="subtotal">Subtotal</div>
+            <div class="total cart-fullprice">$<span>47</span></div>
+          </div>
+          <div class="description">Shipping, taxes, and discounts will be calculated at checkout</div>
+          <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal-overlay"></div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/sliders.js"></script>
+    <script src="../assets/js/cart_scrollbar.js"></script>
+    <script src="../assets/js/search.js"></script>
+</body>
+</html>
